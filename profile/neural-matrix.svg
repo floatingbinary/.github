@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%">
+  <rect width="1200" height="350" fill="#050505" rx="8" />
+
+  <!-- Section Header -->
+  <g transform="translate(36, 38)">
+    <rect x="0" y="-11" width="7" height="7" fill="#ffffff" />
+    <text x="16" y="-4" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="3">01 // SYSTEM ARCHITECTURE &amp; CAPABILITIES MATRIX</text>
+    <text x="1128" y="-4" fill="#707070" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="2" text-anchor="end">TELEMETRY_GRID // 4X1</text>
+    <line x1="0" y1="12" x2="1128" y2="12" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1" />
+  </g>
+
+  <!-- Neural Interconnect Bus Line Behind Cards -->
+  <line x1="36" y1="197" x2="1164" y2="197" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="4 4" />
+
+
+  <!-- Card 01 -->
+  <g transform="translate(36, 78)">
+    <rect width="268" height="238" fill="#0a0a0a" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1" />
+    <!-- Corner Target Brackets -->
+    <path d="M 0 14 L 0 0 L 14 0" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 0 L 268 0 L 268 14" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 0 224 L 0 238 L 14 238" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 238 L 268 238 L 268 224" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+
+    <!-- Header Index & Telemetry Code -->
+    <text x="20" y="32" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" letter-spacing="1">01</text>
+    <text x="54" y="30" fill="#888888" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.5">SYS.VEC // INTELLIGENCE</text>
+    <circle cx="246" cy="26" r="3.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="0.0s" repeatCount="indefinite" />
+    </circle>
+
+    <line x1="20" y1="48" x2="248" y2="48" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Pillar Title -->
+    <text x="20" y="82" fill="#ffffff" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5" font-weight="700" letter-spacing="1.2">INTELLIGENT SYSTEMS</text>
+
+    <!-- Description Lines -->
+    <text x="20" y="114" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Autonomous workflows, neural inference</text>
+    <text x="20" y="135" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">pipelines, and high-signal decision</text>
+    <text x="20" y="156" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">engines built for reliability.</text>
+
+    <!-- Bottom Binary Bar -->
+    <line x1="20" y1="194" x2="248" y2="194" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <text x="20" y="216" fill="#707070" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.4">01000001 01001001 // ACTIVE</text>
+  </g>
+
+  <!-- Card 02 -->
+  <g transform="translate(322, 78)">
+    <rect width="268" height="238" fill="#0a0a0a" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1" />
+    <!-- Corner Target Brackets -->
+    <path d="M 0 14 L 0 0 L 14 0" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 0 L 268 0 L 268 14" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 0 224 L 0 238 L 14 238" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 238 L 268 238 L 268 224" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+
+    <!-- Header Index & Telemetry Code -->
+    <text x="20" y="32" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" letter-spacing="1">02</text>
+    <text x="54" y="30" fill="#888888" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.5">SYS.ARC // DISTRIBUTED</text>
+    <circle cx="246" cy="26" r="3.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="0.9s" repeatCount="indefinite" />
+    </circle>
+
+    <line x1="20" y1="48" x2="248" y2="48" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Pillar Title -->
+    <text x="20" y="82" fill="#ffffff" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5" font-weight="700" letter-spacing="1.2">CLOUD ARCHITECTURE</text>
+
+    <!-- Description Lines -->
+    <text x="20" y="114" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Fault-tolerant distributed backends,</text>
+    <text x="20" y="135" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">low-latency edge networks, and</text>
+    <text x="20" y="156" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">scalable cloud-native infrastructure.</text>
+
+    <!-- Bottom Binary Bar -->
+    <line x1="20" y1="194" x2="248" y2="194" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <text x="20" y="216" fill="#707070" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.4">01001110 01000101 // SYNCED</text>
+  </g>
+
+  <!-- Card 03 -->
+  <g transform="translate(608, 78)">
+    <rect width="268" height="238" fill="#0a0a0a" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1" />
+    <!-- Corner Target Brackets -->
+    <path d="M 0 14 L 0 0 L 14 0" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 0 L 268 0 L 268 14" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 0 224 L 0 238 L 14 238" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 238 L 268 238 L 268 224" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+
+    <!-- Header Index & Telemetry Code -->
+    <text x="20" y="32" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" letter-spacing="1">03</text>
+    <text x="54" y="30" fill="#888888" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.5">SYS.DAT // TELEMETRY</text>
+    <circle cx="246" cy="26" r="3.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="1.8s" repeatCount="indefinite" />
+    </circle>
+
+    <line x1="20" y1="48" x2="248" y2="48" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Pillar Title -->
+    <text x="20" y="82" fill="#ffffff" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5" font-weight="700" letter-spacing="1.2">DATA &amp; VECTOR PIPELINES</text>
+
+    <!-- Description Lines -->
+    <text x="20" y="114" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">High-throughput ingestion, real-time</text>
+    <text x="20" y="135" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">stream processing, and structured</text>
+    <text x="20" y="156" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">observability at scale.</text>
+
+    <!-- Bottom Binary Bar -->
+    <line x1="20" y1="194" x2="248" y2="194" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <text x="20" y="216" fill="#707070" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.4">01001001 01001111 // STREAM</text>
+  </g>
+
+  <!-- Card 04 -->
+  <g transform="translate(894, 78)">
+    <rect width="268" height="238" fill="#0a0a0a" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1" />
+    <!-- Corner Target Brackets -->
+    <path d="M 0 14 L 0 0 L 14 0" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 0 L 268 0 L 268 14" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 0 224 L 0 238 L 14 238" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+    <path d="M 254 238 L 268 238 L 268 224" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.8" />
+
+    <!-- Header Index & Telemetry Code -->
+    <text x="20" y="32" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" letter-spacing="1">04</text>
+    <text x="54" y="30" fill="#888888" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.5">SYS.ENG // PRECISION</text>
+    <circle cx="246" cy="26" r="3.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="2.7s" repeatCount="indefinite" />
+    </circle>
+
+    <line x1="20" y1="48" x2="248" y2="48" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Pillar Title -->
+    <text x="20" y="82" fill="#ffffff" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5" font-weight="700" letter-spacing="1.2">PRODUCT ENGINEERING</text>
+
+    <!-- Description Lines -->
+    <text x="20" y="114" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Minimalist, ultra-responsive interfaces</text>
+    <text x="20" y="135" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">paired with rock-solid full-stack</text>
+    <text x="20" y="156" fill="#a6a6a6" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">software craftsmanship.</text>
+
+    <!-- Bottom Binary Bar -->
+    <line x1="20" y1="194" x2="248" y2="194" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <text x="20" y="216" fill="#707070" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1.4">01010101 01011000 // LOCKED</text>
+  </g>
+
+
+  <rect x="1" y="1" width="1198" height="348" rx="8" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" />
+</svg>
